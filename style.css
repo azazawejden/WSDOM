@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5px;
+  width: 300px;
+  margin: 20px auto 10px;
+}
+.task {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+main {
+  margin: 20px auto 10px;
+}
+#filter-section {
+  margin: 20px auto 10px;
+  width: 300px;
+}
